@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="165.0" prefWidth="320" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="mx.jet.login.FXMLLoginController">
+    <children>
+      <Button fx:id="button" layoutX="137.0" layoutY="125.0" onAction="#loginButton" text="Login" />
+      <Label fx:id="label" layoutX="126" layoutY="120" minHeight="16" minWidth="69" />
+      <Button layoutX="195.0" layoutY="125.0" mnemonicParsing="false" onAction="#RegistrarVentana" text="Registrarse" />
+      <Label layoutX="54.0" layoutY="36.0" text="Usuario" />
+      <Label layoutX="54.0" layoutY="81.0" text="Contraseña" />
+      <PasswordField fx:id="txtContrasena" layoutX="121.0" layoutY="77.0" />
+      <TextField fx:id="txtUsuario" layoutX="121.0" layoutY="32.0" />
+    </children>
+</AnchorPane>

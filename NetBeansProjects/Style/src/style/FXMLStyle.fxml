@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="608.0" prefWidth="772.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="style.StyleController">
+    <children>
+      <Label fx:id="label" layoutX="126" layoutY="120" minHeight="16" minWidth="69" />
+      <Button fx:id="examinar" layoutX="665.0" layoutY="26.0" mnemonicParsing="false" onAction="#fileChooser" text="Examinar" />
+      <Button fx:id="analizar" layoutX="351.0" layoutY="60.0" mnemonicParsing="false" onAction="#analizar" text="Analizar" />
+      <TextField fx:id="txtFile" layoutX="43.0" layoutY="26.0" prefHeight="25.0" prefWidth="616.0" />
+      <TextArea fx:id="txtArea" layoutX="14.0" layoutY="106.0" prefHeight="487.0" prefWidth="742.0" />
+      <Separator layoutX="-9.0" layoutY="97.0" prefHeight="0.0" prefWidth="782.0" />
+    </children>
+</AnchorPane>

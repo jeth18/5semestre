@@ -1,0 +1,5 @@
+package mx.jet.dao;
+
+public interface IbicicletaDao {
+
+}

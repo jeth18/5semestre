@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename package &apos;database&apos; to &apos;mx.jet.dataBase&apos;&#x0D;&#x0A;- Original project: &apos;construccionExamen&apos;&#x0D;&#x0A;- Original element: &apos;construccionExamen/src/database&apos;&#x0D;&#x0A;- Renamed element: &apos;construccionExamen/src/mx.jet.dataBase&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename package &apos;database&apos;" flags="589830" hierarchical="false" id="org.eclipse.jdt.ui.rename.package" input="/src&lt;database" name="mx.jet.dataBase" qualified="false" references="true" stamp="1539206841904" textual="false" version="1.0"/>
+</session>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="166.0" prefWidth="320" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="triangulo.pruebadesoftware.FXMLDocumentController">
+    <children>
+        <Button fx:id="BCalcular" layoutX="193.0" layoutY="125.0" onAction="#tipoTriangulo" text="Tipo" />
+        <Label fx:id="label" layoutX="126" layoutY="120" minHeight="16" minWidth="69" />
+      <Button fx:id="BBorrar" layoutX="245.0" layoutY="125.0" mnemonicParsing="false" onAction="#Borrar" text="Borrar" />
+      <TextField fx:id="txtA" layoutX="24.0" layoutY="30.0" prefHeight="25.0" prefWidth="81.0" />
+      <TextField fx:id="txtB" layoutX="119.0" layoutY="30.0" prefHeight="25.0" prefWidth="81.0" />
+      <TextField fx:id="txtC" layoutX="213.0" layoutY="30.0" prefHeight="25.0" prefWidth="81.0" />
+      <TextField fx:id="txtTriangulo" layoutX="133.0" layoutY="83.0" prefHeight="25.0" prefWidth="163.0" />
+      <Label layoutX="24.0" layoutY="87.0" text="Tipo de triangulo:" />
+      <Label layoutX="24.0" layoutY="6.0" text="Escriba 3 numeros entre el 1 y 200" />
+    </children>
+</AnchorPane>

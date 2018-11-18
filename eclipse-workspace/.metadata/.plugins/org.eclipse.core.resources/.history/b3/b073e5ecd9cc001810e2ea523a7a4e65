@@ -1,0 +1,5 @@
+package mx.jet.dominio;
+
+public class Participante {
+
+}
